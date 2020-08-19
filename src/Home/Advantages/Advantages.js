@@ -22,6 +22,7 @@ const useStyles = makeStyles(() => ({
     },
     stylep:{
         marginLeft:"50px",
+        marginBottom:"100px",
     },
    
     }));
@@ -51,10 +52,11 @@ function Advantages() {
                   <Component1 />
                   
               </Grid>
-              <Grid container direction="row" justify="flex-end" alignItems="flex-start" sm={6} >
+              <Grid item sm={1} />
+              <Grid container direction="row" justify="center" alignItems="center" sm={6} >
                  <Typography>
-                     <h1 className={classes.space}>Comprehensive Career Guide</h1>
-                     <h4 className={classes.stylep}>Preparing for a job goes beyond learning materials. We help you with practice pathways to prioritize the skills
+                     <h1 >Comprehensive Career Guide</h1>
+                     <h4 className={classes.heading}>Preparing for a job goes beyond learning materials. We help you with practice pathways to prioritize the skills
                          to learn and perform best at the interview.
                      </h4>
                  </Typography>
@@ -71,15 +73,16 @@ function Advantages() {
       <Grid item sm={2} xs={2}/>
       <Grid item container xs={8} sm={8} spacing={6}>
           <Grid container>
-              <Grid container direction="row" justify="flex-start" alignItems="flex-start" sm={6} >
+              <Grid container direction="row" justify="flex-start" alignItems="center" sm={6} >
                  <Typography>
-                     <h1 style={{marginTop:"200px"}}>Connect with Professionals</h1>
-                     <h4>Preparing for a job goes beyond learning materials. We help you with practice pathways to prioritize the skills
+                     <h1 >Connect with Professionals</h1>
+                     <h4 className={classes.heading}>Preparing for a job goes beyond learning materials. We help you with practice pathways to prioritize the skills
                          to learn and perform best at the interview.</h4>
                  </Typography>
 
               </Grid>
-              <Grid item sm={5} style={{marginLeft:"30px"}} justify="flex-end">
+              <Grid item sm={1} />
+              <Grid item xs={1} sm={5} justify="flex-end">
                   <Component2 />
                   
 
@@ -89,20 +92,20 @@ function Advantages() {
       </Grid>
       <Grid item sm={2} xs={2} />
       </Grid>
-      
+
       <Grid container>
       <Grid item sm={2} xs={2}/>
-      <Grid item container xs={8} sm={8} spacing={6}>
+      <Grid item container xs={8} sm={8} spacing={8}>
           <Grid container>
               <Grid item sm={5}>
-                  <Component3 />
+                  <Component1 />
                   
               </Grid>
-              <Grid container direction="row" justify="flex-start" alignItems="flex-start" sm={6}>
+              <Grid item sm={1} />
+              <Grid container direction="row" justify="center" alignItems="center" sm={6} >
                  <Typography>
-
-                     <h1 className={classes.space}>Crack Interviews</h1>
-                     <h4 className={classes.stylep}>Preparing for a job goes beyond learning materials. We help you with practice pathways to prioritize the skills
+                     <h1 >Crack Interviews</h1>
+                     <h4 className={classes.heading}>Preparing for a job goes beyond learning materials. We help you with practice pathways to prioritize the skills
                          to learn and perform best at the interview.
                      </h4>
                  </Typography>
@@ -113,7 +116,8 @@ function Advantages() {
       </Grid>
       <Grid item sm={2} xs={2} />
       </Grid>
-
+      
+      
           
            
         </div>

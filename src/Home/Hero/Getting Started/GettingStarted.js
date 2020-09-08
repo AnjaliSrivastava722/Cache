@@ -15,7 +15,7 @@ import {useStyles} from './Styles'
                <Grid item xs={8}>
                  <Grid container justify="center">
                   <Grid item xs={12} style={{textAlign:"center"}}>
-                      <Button variant="contained" color="secondary" className={classes.textcolor} href="/Get_Start">
+                      <Button variant="contained" color="secondary" className={classes.textcolor} href="#">
                            GET STARTED
                          </Button>
                   </Grid>
